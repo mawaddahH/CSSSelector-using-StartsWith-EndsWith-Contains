@@ -38,31 +38,50 @@ I opened the website, then take web elements, and then add them to the code I us
 - `tagName[attributeName$=”Ending Text of Attribute Value“]` - EndsWith
 - `tagName[attributeName*="sub string of Attribute Value“]` - Contains
 
+And I used them in Child or Sub-Child syntax:
+`ParentTagName[attributeName="Value“]ChildTagName[attributeName="Value“]`
+
 The cssSelector I wrote it are:
-- Username TextField
+- FullName TextField
 ```md
-input#email[name='email']
+div[class='form_info'] input[placeholder^='First ']
 ```
-- Password TextField
+- Email TextField
 ```md
-input#pass[name='pass']
+div[class='form_info'] input[placeholder$='Address']
 ```
-- Login Button
+
+- Saudi Arabia Option
 ```md
-button[name='login']
+li[data-dial-code*='966']
+```
+
+- PhoneNumber TextField
+```md
+div[class='form_info'] input[placeholder^='201']
+```
+
+- Location Option
+```md
+div[class^='form_info\'] option[value*='Los ']
+```
+
+- Submit Button
+```md
+div[class='form_info'] input[value$='Packet']
 ```
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/48597284/182497037-314ce1c3-a6b2-44b4-a3d2-c8184550c2d7.png" width=60% height=60%>
+<img src="https://user-images.githubusercontent.com/48597284/182590769-ba700696-c7c3-44b9-8b11-991c28a6a5f1.png" width=80% height=80%>
 </p>
 
 ---
 ## Output Screenshots:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/48597284/182498824-d9928cef-b525-4d48-857a-1d3110f59ce2.png" width=80% height=80%>
+<img src="https://user-images.githubusercontent.com/48597284/182591748-9b4c73e1-9561-4977-9e04-c7204b74b2fd.png" width=80% height=80%>
 
 
-https://user-images.githubusercontent.com/48597284/182498848-310126df-c972-476c-b611-9f56274ee7ac.mp4
+https://user-images.githubusercontent.com/48597284/182591806-c410f4ef-780b-4942-b10f-2012e329595a.mp4
 </p>
