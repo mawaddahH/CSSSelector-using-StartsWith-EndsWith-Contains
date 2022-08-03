@@ -34,9 +34,9 @@ Add them as a library in the classpath of the project
 
 ### Third:
 I opened the website, then take web elements, and then add them to the code I use cssSelector with using StartsWith, EndsWith, & Contains as syntax:
--`tagName[attributeName^=”starting text of attribute Value“]` -
--`tagName[attributeName$=”Ending Text of Attribute Value“]` -
--`tagName[attributeName$=”Ending Text of Attribute Value“]` -
+- `tagName[attributeName^=”starting text of attribute Value“]` - StartsWith
+- `tagName[attributeName$=”Ending Text of Attribute Value“]` - EndsWith
+- `tagName[attributeName*="sub string of Attribute Value“]` - Contains
 
 The cssSelector I wrote it are:
 - Username TextField
