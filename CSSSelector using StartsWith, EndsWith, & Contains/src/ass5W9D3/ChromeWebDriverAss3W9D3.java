@@ -33,7 +33,7 @@ public class ChromeWebDriverAss3W9D3 {
 		driver.manage().window().maximize();
 		driver.get("https://www.codingdojo.com/");
 		System.out.println(driver.getTitle());
-		Thread.sleep(5000); // wait web elements to load
+		Thread.sleep(5000); // wait for web elements to load
 
 	}
 
